@@ -1,4 +1,5 @@
-@font-face {
+/*Fonts*/
+@font-face /*Font for Header*/{
     font-family: '3dumbregular';
     src: url('3Dumb-webfont.eot');
     src: url('3Dumb-webfont.eot?#iefix') format('embedded-opentype'),
@@ -9,6 +10,19 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face /*Font for navigation links*/{
+    font-family: '2dumbregular';
+    src: url('2Dumb-webfont.eot');
+    src: url('2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('2Dumb-webfont.woff2') format('woff2'),
+         url('2Dumb-webfont.woff') format('woff'),
+         url('2Dumb-webfont.ttf') format('truetype'),
+         url('2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
   background-image: url('background.jpg');
   background-repeat: no-repeat;
@@ -20,7 +34,7 @@ header{
 width: 100%;
 height: 100px;
 text-align: center;
-background-color: rgba(117, 190, 218, 0.8);
+background-color: rgba(117, 190, 218, 0.5);
 }
 h1{
 font-family: "3dumbregular";
@@ -30,12 +44,15 @@ width: 40%;
 margin: 0;
 padding: 0;
 padding-top: 15px;
+text-shadow: 2px 2px rgb(244, 66, 92);
+
 }
 
 nav{
   width: 60%;
   float: right;
   text-align: left;
+  font-family: '2dumbregular';
 }
 
 h1,nav{
@@ -44,13 +61,29 @@ h1,nav{
 
 ul{
 list-style-type: none;
-padding-top: 40px;
+padding-top: 28px;
 font-size: 2vw;
 }
+
 li{
-  display: inline;
+display: inline;
 }
+
+#first,#second{
+    padding-right: 70px;
+}
+
 a{
-    padding-right: 100px;
-    padding-bottom: ;
+    text-decoration: none;
+    color: rgb(244, 66, 92);
+    text-shadow: 2px 2px black;
+}
+
+article{
+  text-align: center;
+}
+
+p{
+font-size: 120%;
+padding: 20px;
 }
