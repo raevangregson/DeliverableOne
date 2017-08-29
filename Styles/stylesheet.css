@@ -36,6 +36,7 @@ height: 100px;
 text-align: center;
 background-color: rgba(117, 190, 218, 0.5);
 }
+
 h1{
 font-family: "3dumbregular";
 font-size: 3vw;
@@ -65,22 +66,89 @@ padding-top: 28px;
 font-size: 2vw;
 }
 
-li{
-display: inline;
+li, a {
+    display:inline-block;
+    text-align:center;
 }
 
-#first,#second{
-    padding-right: 70px;
+img{
+  display: inline-block;
+  vertical-align: middle;
+   border:1px solid #021a40;
+   box-shadow:  10px 10px 5px #888888;
+   margin-left: 20px;
+   border-radius: 5px;
 }
+
 
 a{
     text-decoration: none;
     color: rgb(244, 66, 92);
     text-shadow: 2px 2px black;
 }
+a:hover {
+    font-weight:bold;
+}
+a::after {
+    display:block;
+    content:attr(id);
+    font-weight:bold;
+    height:1px;
+    color:transparent;
+    overflow:hidden;
+    visibility:hidden;
+    margin-bottom:-1px;
+}
 
 article{
   text-align: center;
+  margin-top: 20px;
+}
+
+#first,#second{
+    padding-right: 70px;
+}
+
+#grandcircus
+{
+font-size: 80%;
+text-shadow: none;
+text-decoration: underline;
+}
+
+#logoImages{
+text-align: center;
+}
+#aboutarticle{
+  background-color: rgba(117, 190, 218, 0.5);
+}
+
+#me{
+  display: inline;
+  float: left;
+  margin-right: 14px;
+}
+#about{
+  text-align: left;
+  padding-bottom: 0;
+  margin-right: 25px;
+}
+#circus{
+  float: right;
+  margin-left: 5px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:25px;
+    font-family: Tahoma;
+}
+input[type=submit]:hover{
+font-weight: bold;
+width: 90px;
+height:30px;
 }
 
 p{
