@@ -20,7 +20,6 @@
          url('2Dumb-webfont.svg#2dumbregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body{
@@ -38,14 +37,14 @@ background-color: rgba(117, 190, 218, 0.5);
 }
 
 h1{
-font-family: "3dumbregular";
-font-size: 3vw;
-float: left;
-width: 40%;
-margin: 0;
-padding: 0;
-padding-top: 15px;
-text-shadow: 2px 2px rgb(244, 66, 92);
+  font-family: "3dumbregular";
+  font-size: 3vw;
+  float: left;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  text-shadow: 2px 2px rgb(244, 66, 92);
 
 }
 
@@ -61,9 +60,9 @@ h1,nav{
 }
 
 ul{
-list-style-type: none;
-padding-top: 28px;
-font-size: 2vw;
+  list-style-type: none;
+  padding-top: 28px;
+  font-size: 2vw;
 }
 
 li, a {
@@ -105,6 +104,40 @@ article{
   margin-top: 20px;
 }
 
+input[type=submit] {
+    border: 0;
+    width: 80px;
+    height:25px;
+    font-family: Tahoma;
+    background-color: rgb(244, 66, 92);
+    box-shadow:  5px 5px 5px #888888;
+}
+
+form{
+  font-family: Tahoma;
+}
+
+input[type=submit]:hover{
+font-weight: bold;
+width: 90px;
+height:30px;
+}
+
+input{
+  border-radius: 5px;
+  font-family: Tahoma;
+}
+
+textarea{
+  border-radius: 5px;
+  font-family: Tahoma;
+}
+
+p{
+font-size: 120%;
+font-family: Tahoma;
+}
+
 #first,#second{
     padding-right: 70px;
 }
@@ -127,31 +160,17 @@ text-align: center;
   display: inline;
   float: left;
   margin-right: 14px;
+  margin-top: 10px;
 }
 #about{
   text-align: left;
   padding-bottom: 0;
   margin-right: 25px;
 }
+
 #circus{
   float: right;
   margin-left: 5px;
-}
-
-input[type=submit] {
-    border-radius: 5px;
-    border: 0;
-    width: 80px;
-    height:25px;
-    font-family: Tahoma;
-}
-input[type=submit]:hover{
-font-weight: bold;
-width: 90px;
-height:30px;
-}
-
-p{
-font-size: 120%;
-padding: 20px;
+  margin-top: -35px;
+  margin-right: -10px;
 }
